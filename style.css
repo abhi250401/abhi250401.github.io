@@ -1,0 +1,74 @@
+.todo-wrapper{
+    background-color:whitesmoke;
+   margin-top:100px;
+   border-radius:15px;
+  text-align: center;
+  justify-content: center;
+  width :50%;
+  margin :100px auto;
+  padding:2.1rem;
+  font-weight: 300;
+  font-size:2.1em;
+}
+body{
+background-color: teal;
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
+
+}
+p{
+    font-style: italic;
+    margin-top:2px;
+    padding:0;
+    color: #666;
+}
+form{
+display: inline-block;
+}
+.pretty-button{
+    margin:1px 10px 20px;
+    border-radius: 10px;
+    background-color:#49B749;
+    border: none;
+    color:white;
+    font-size:medium;
+    text-align: center;
+    
+    padding: 5px 13px;
+}
+.pretty-button:hover {
+    cursor: pointer;
+    opacity: 0.75;
+}
+#control-wrapper {
+    text-align: center;
+    display: flex;
+   
+    justify-content: space-around;
+}
+.todo-wrapper ol li {
+    margin: 5px 0;
+    padding: 3px;
+   
+}
+
+.todo-wrapper ol li:nth-child(even) {
+    background: #ddd;
+}
+
+.todo-wrapper .completed {
+    text-decoration: line-through;
+    color: #666;
+}
+
+.todo-wrapper #clear-completed-button {
+    background-color: teal;
+}
+
+.todo-wrapper #empty-button {
+    background-color: #9B1C20;
+}
+
+.todo-wrapper #save-button {
+    background-color: #49B749;
+}
