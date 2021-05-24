@@ -1,124 +1,32 @@
-<!DOCTYPE html>
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <title>Project: Event invite</title>
-    <style>
-        #picture {
-            float: right;
-            margin-left:15px;
-            border:darkgray ridge 10px;
-            
-        }
-
-        h2 {
-            color: brown;
-            font-weight:bold;
-            
-        }
-
-        h1 {
-            color: rgb(255, 60, 0);
-
-        }
-
-        #font {
-            font-family: sans-serif;
-            margin-left: 20px;
-            margin-right: auto;
-        }
-
-        #space {
-            margin-bottom: 50px;
-        }
-
-        h3 {
-            font-family: sans-serif;
-            color: brown;
-            font-size: x-large;
-        }
-
-        #big {
-            font-size: 100px;
-            color: darkblue;
-
-        }
-    </style>
+    <title>JavaScript to do list</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <div id="font">
+    <div class="todo-wrapper">
+        <h2>My to-do list</h2>
+        <p>Double-click an item to mark it complete.</p>
+        <form name="todo-adder">
+            <input type="text" id="todo-entry-box" />
+        </form>
+        <button id="add-button" class="pretty-button">Add</button>
+        <br />
+        <ol id="todo-list">
 
 
-        <h2 id="big">PSYBIENT ' 21</h2>
-
-        <img id="picture" src="abhi250401.github.io/psy.jpeg" alt="psybient '21">
-
-        <center>
-            <h3>WHATSSUPP Juniors !!</h3>
-        </center>
-
-        <p>After the great success of Psybient'17 & Psybient'18, the most awaited day of your session is here,
-            👯"PSYBIENT'
-            21"👯 and we cordially invite you to be our guest at your Fresher's Party we have arranged for you guys. It
-            will
-            be great having you among us! 🥰
-            Excited???🤩🤩🤩</p>
-
-        <center>
-            <h2>VENUE And DATE</h2>
-        </center>
-        <p>Masjid Moth,
-            Greater Kailash, New Delhi- 110048
-            <span><strong>ON 4 TH MARCH 2021 , TIMING 2-6 PM</strong></span>
-        </p>
-        <center>
-            <h2>EVENTS</h2>
-        </center>
-        <p>So what it's Unofficial 🙄, still it's a Fresher's Party 😎, therefore it's not just filling your tummy🍕🍹
-            or
-            shaking up your body on some random tunes🕺🏻💃🏻
-            it's much more than that like:</p>
-        <ul>
-            <li>Introduction Round</li>
-            <li>Ramp walk</li>
-            <li>talent Round
-            </li>
-            <li>Q n A round</li>
-            <li>cornation round</li>
-        </ul>
-        <p>and a lot more games and fun stuff</p>
-        <p>And most importantly, its not just limiited to Mr. and Mrs. Freshers there're other significant titles too so
-            jusst BUCKLE UP . <strong>very few days left</strong></p>
-        <div id="space">
-            <h2>ORGANISERS</h2>
-            <p>
-                Harsh Sehrawat (9999890802)<br>
-                Harsh Lakra<br>
-                Harsh Shokeen  ( 9999130918)<br>
+        </ol>
+        <div id="control-wrapper">
+            <button id="clear-completed-button" class="pretty-button">Clear Completed</button>
+            <button id="empty-button" class="pretty-button">Empty List</button>
+            <button id="save-button" class="pretty-button">Save List</button>
         </div>
-        <div id="space">
-            <h2> *PROMOTERS*</h2>
-            Riya Koul (9999441954)<br>
-            Rohan Solanki (8687878732)<br>
-            Mukul Malik<br>
-        </div>
-        <h2>PRICE DETAILS</h2>
-
-        <strong> NON- ALCOHOLIC (1500/-)</strong><br>
-
-        <strong>ALCOHOLIC (1800/-)</strong> <br>
-
-        So, grab your passes as soon as possible 😉😉😉
-        <br>
-        For booking/payment and for registration for the Mr.&Ms.Fresher Event,
-        9999-890-802<br>
-        ( Google Pay / PhonePe )<br>
-
-        * Confirm and send Screenshots with the transaction ID after making the payment on the same number *</p>
     </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
